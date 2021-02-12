@@ -12,6 +12,7 @@ Example of use:
 >Mensagem a ser traduzida.
 
 Json file:
+
 {
   "LANGUAGES": {
     "en": {
@@ -27,6 +28,7 @@ Json file:
 >Messaggio da tradurre.
 
 Json file:
+
 {
   "LANGUAGES": {
     "en": {
@@ -43,6 +45,7 @@ If you do not enter the input and output languages, the class uses the default s
 Example:
 
 Json file:
+
 {
     "DEFAULT": {
         "input": "pt", # Default input portuguese
@@ -55,6 +58,7 @@ Json file:
 >Message to be translated.
 
 Json file:
+
 {
   "DEFAULT": {
     "input": "pt",
