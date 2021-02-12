@@ -1,0 +1,24 @@
+{
+  "DEFAULT": {
+    "input": "en",
+    "output": "pt"
+  },
+  "LANGUAGE": {
+    "en": {
+      "Use Googletrans to translate the message": {
+        "es": "Utilice Googletrans para traducir el mensaje",
+        "pt": "Use Googletrans para traduzir a mensagem"
+      },
+      "Once the Translator class object is created": {
+        "pt": "Depois que o objeto da classe Translator é criado",
+        "it": "Una volta creato l'oggetto della classe Translator"
+      }
+    },
+    "pt": {
+      "Todos os direitos reservados.": {
+        "en": "All rights reserved."
+      }
+    }
+  }
+}
+
