@@ -23,6 +23,7 @@ Json file:
 }
 
 >print(_("Message to be translated.", input_language="en", output_language="it"))
+
 >Messaggio da tradurre.
 
 Json file:
@@ -38,7 +39,9 @@ Json file:
 }
 
 If you do not enter the input and output languages, the class uses the default settings.
+
 Example:
+
 Json file:
 {
     "DEFAULT": {
@@ -48,6 +51,7 @@ Json file:
 }
 
 >print(_("Mensagem a ser traduzida."))
+
 >Message to be translated.
 
 Json file:
