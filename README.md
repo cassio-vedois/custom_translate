@@ -6,7 +6,9 @@ That way there will be no need to constantly access the web to make translations
 
 Example of use:
 >from translations.translate import gettex as _
+
 >print(_("Message to be translated.", input_language="en", output_language="pt"))
+
 >Mensagem a ser traduzida.
 
 Json file:
