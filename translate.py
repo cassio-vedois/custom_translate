@@ -28,8 +28,6 @@ Settings.json file structure:
 import os, json
 from googletrans import Translator
 
-# from core.logger import Logger
-
 
 def gettext(message, input_language=None, output_language=None):
     return CustomTranslator().translate(message, input_language, output_language)
@@ -53,7 +51,6 @@ class CustomTranslator:
                 jfile.close()
         except Exception as e:
             print(str(e))
-            # Logger.error(str(e))
 
     def __set_settings(self, jdata):
         """ Set a new incoming message with your corresponding translation """
@@ -63,7 +60,6 @@ class CustomTranslator:
                 jfile.close()
         except Exception as e:
             print(str(e))
-            # Logger.error(str(e))
 
     @staticmethod
     def get_translation(message, lang):
@@ -134,7 +130,6 @@ class CustomTranslator:
             output_message = translations[input_lang][message][output_lang]
         except Exception as e:
             print(str(e))
-            # Logger.error(str(e))
             output_message = message
 
         return output_message
