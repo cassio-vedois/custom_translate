@@ -5,9 +5,9 @@ Routine message translation for use in small multilingual applications. The mess
 That way there will be no need to constantly access the web to make translations since the system messages are usually fixed and, once registered in settings.json, they will be available always decreasing the network flow.
 
 Example of use:
->>>from translations.translate import gettex as _
->>>print(_("Message to be translated.", input_language="en", output_language="pt"))
->>>Mensagem a ser traduzida.
+>from translations.translate import gettex as _
+>print(_("Message to be translated.", input_language="en", output_language="pt"))
+>Mensagem a ser traduzida.
 
 Json file:
 {
@@ -20,8 +20,8 @@ Json file:
   }
 }
 
->>>print(_("Message to be translated.", input_language="en", output_language="it"))
->>>Messaggio da tradurre.
+>print(_("Message to be translated.", input_language="en", output_language="it"))
+>Messaggio da tradurre.
 
 Json file:
 {
@@ -45,8 +45,8 @@ Json file:
     },
 }
 
->>>print(_("Mensagem a ser traduzida."))
->>>Message to be translated.
+>print(_("Mensagem a ser traduzida."))
+>Message to be translated.
 
 Json file:
 {
@@ -68,6 +68,8 @@ Json file:
     }
   }
 }
+
+You can vary by entering a specific input / output language if you do not want to use the standard. However, if there is no default in the settings and an input or output language is not informed, the same input message will be returned.
 
 In this way, the system will periodically record messages and systematically reduce the use of the web.
 THAT SIMPLE!
