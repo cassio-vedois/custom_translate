@@ -82,4 +82,5 @@ Json file:
 You can vary by entering a specific input / output language if you do not want to use the standard. However, if there is no default in the settings and an input or output language is not informed, the same input message will be returned.
 
 In this way, the system will periodically record messages and systematically reduce the use of the web.
+
 THAT SIMPLE!
